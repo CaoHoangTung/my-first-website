@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: "Bookman Old Style";
+}
+
+.menu-item{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+    
+}
+.menu-item a {
+    color: lime;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+#menu{
+    background:black;
+    text-align: right;
+    padding: 20px;
+    /* height: 100px;  */
+}
+
+#menu-left{
+    float: left;
+}
